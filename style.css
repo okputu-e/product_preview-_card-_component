@@ -55,11 +55,15 @@ ul {
 }
 
 body {
+  min-height: 100vh;
   background-color: var(--cream);
   font-size: var(--fs-paragraph);
   width: 100%;
   height: 100%;
   padding: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .wrapper {
